@@ -1,0 +1,37 @@
+{
+	"expo": {
+		"name": "swift-proteins",
+		"slug": "swift-proteins",
+		"version": "1.0.0",
+		"orientation": "default",
+		"icon": "./assets/image1.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": [
+			"**/*"
+		],
+		"ios": {
+			"supportsTablet": true,
+			"infoPlist": {
+				"NSFaceIDUsageDescription": "Swifty-proteins needs to use Face ID / Touch ID to authenticate you"
+			},
+			"bundleIdentifier": "com.ysrbolles.swift-proteins"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/image1.png",
+				"backgroundColor": "#FFFFFF"
+			}
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"description": ""
+	}
+}

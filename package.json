@@ -1,0 +1,44 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "build-ios": "expo build:ios"
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^6.1.0",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@unimodules/core": "^7.1.2",
+    "axios": "^0.24.0",
+    "expo": "~43.0.0",
+    "expo-asset": "^8.4.3",
+    "expo-cli": "^4.12.12",
+    "expo-file-system": "^13.0.3",
+    "expo-gl": "~11.0.3",
+    "expo-graphics": "^2.0.0",
+    "expo-local-authentication": "^12.0.1",
+    "expo-sharing": "^10.0.3",
+    "expo-status-bar": "~1.1.0",
+    "expo-three": "^6.0.1",
+    "expo-three-orbit-controls": "^2.0.0",
+    "parse-pdb": "^1.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-paper": "^4.10.0",
+    "react-native-touch-id": "^4.4.1",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-web": "0.17.1",
+    "react-router-native": "^5.2.1",
+    "three": "^0.134.0",
+    "three.interaction": "^0.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
